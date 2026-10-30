@@ -1,0 +1,218 @@
+[
+ {
+  "route": "lasso-premium-fastest",
+  "method": "eth_blockNumber",
+  "p50_ms": 74,
+  "max_ms": 86,
+  "result": "0x32cc8f7",
+  "provider": {
+   "id": "premium_base_1",
+   "protocol": "http"
+  },
+  "strategy": "fastest",
+  "overhead_ms": null,
+  "req_id": "GOMpf7lP14nThMUAGgXn",
+  "access": "premium",
+  "usd": "0.00001",
+  "bal": "0.02495",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-premium-fastest",
+  "method": "eth_getBalance",
+  "p50_ms": 133,
+  "max_ms": 240,
+  "result": "0x1ffa3522991a2",
+  "provider": {
+   "id": "premium_base_1",
+   "protocol": "http"
+  },
+  "strategy": "fastest",
+  "overhead_ms": null,
+  "req_id": "GOMpf91M_5UUjMUAN3rh",
+  "access": "premium",
+  "usd": "0.00003",
+  "bal": "0.0248",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-premium-fastest",
+  "method": "eth_call",
+  "p50_ms": 70,
+  "max_ms": 84,
+  "result": "0x00000000000000000000000000000000000000000000000000000000009c2b23",
+  "provider": {
+   "id": "premium_base_1",
+   "protocol": "http"
+  },
+  "strategy": "fastest",
+  "overhead_ms": null,
+  "req_id": "GOMpf_jstn2nVSwAL-Qj",
+  "access": "premium",
+  "usd": "0.00003",
+  "bal": "0.02465",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-premium-fastest",
+  "method": "eth_getTransactionReceipt",
+  "p50_ms": 90,
+  "max_ms": 122,
+  "result": "status=0x1",
+  "provider": {
+   "id": "premium_base_1",
+   "protocol": "http"
+  },
+  "strategy": "fastest",
+  "overhead_ms": null,
+  "req_id": "GOMpgBNIy5eQI7oAN34B",
+  "access": "premium",
+  "usd": "0.00003",
+  "bal": "0.0245",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-public",
+  "method": "eth_blockNumber",
+  "p50_ms": 226,
+  "max_ms": 286,
+  "result": "0x32cc8f8",
+  "provider": {
+   "id": "base_drpc",
+   "protocol": "ws"
+  },
+  "strategy": "load-balanced",
+  "overhead_ms": null,
+  "req_id": "GOMpgEgdhusuirkAL-SD",
+  "access": "public",
+  "usd": "0",
+  "bal": "0.025",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-public",
+  "method": "eth_getBalance",
+  "p50_ms": 120,
+  "max_ms": 413,
+  "result": "0x1ffa3522991a2",
+  "provider": {
+   "id": "base_pocket",
+   "protocol": "http"
+  },
+  "strategy": "load-balanced",
+  "overhead_ms": null,
+  "req_id": "GOMpgHYTFN8pvMMAN4AB",
+  "access": "public",
+  "usd": "0",
+  "bal": "0.025",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-public",
+  "method": "eth_call",
+  "p50_ms": 79,
+  "max_ms": 166,
+  "result": "0x00000000000000000000000000000000000000000000000000000000009c2b23",
+  "provider": {
+   "id": "base_pocket",
+   "protocol": "http"
+  },
+  "strategy": "load-balanced",
+  "overhead_ms": null,
+  "req_id": "GOMpgJMcXKPtiZ8AI1FF",
+  "access": "public",
+  "usd": "0",
+  "bal": "0.025",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "lasso-public",
+  "method": "eth_getTransactionReceipt",
+  "p50_ms": 161,
+  "max_ms": 264,
+  "result": "status=0x1",
+  "provider": {
+   "id": "base_pocket",
+   "protocol": "http"
+  },
+  "strategy": "load-balanced",
+  "overhead_ms": null,
+  "req_id": "GOMpgMFbZHnEbQwAI1Ml",
+  "access": "public",
+  "usd": "0",
+  "bal": "0.025",
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "direct-base.org",
+  "method": "eth_blockNumber",
+  "p50_ms": 94,
+  "max_ms": 98,
+  "result": "0x32cc8f9",
+  "provider": null,
+  "strategy": null,
+  "overhead_ms": null,
+  "req_id": null,
+  "access": null,
+  "usd": null,
+  "bal": null,
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "direct-base.org",
+  "method": "eth_getBalance",
+  "p50_ms": 88,
+  "max_ms": 94,
+  "result": "0x1ffa3522991a2",
+  "provider": null,
+  "strategy": null,
+  "overhead_ms": null,
+  "req_id": null,
+  "access": null,
+  "usd": null,
+  "bal": null,
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "direct-base.org",
+  "method": "eth_call",
+  "p50_ms": 89,
+  "max_ms": 103,
+  "result": "0x00000000000000000000000000000000000000000000000000000000009c2b23",
+  "provider": null,
+  "strategy": null,
+  "overhead_ms": null,
+  "req_id": null,
+  "access": null,
+  "usd": null,
+  "bal": null,
+  "fallback": null,
+  "http": 200
+ },
+ {
+  "route": "direct-base.org",
+  "method": "eth_getTransactionReceipt",
+  "p50_ms": 93,
+  "max_ms": 104,
+  "result": "status=0x1",
+  "provider": null,
+  "strategy": null,
+  "overhead_ms": null,
+  "req_id": null,
+  "access": null,
+  "usd": null,
+  "bal": null,
+  "fallback": null,
+  "http": 200
+ }
+]
